@@ -6,6 +6,7 @@
 .gridOne {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-color: lightgray;
 }
 .gridTwo {
   display: grid;
@@ -20,6 +21,7 @@
   background-color: blue;
   color: antiquewhite;
 }
+
 .gridTwo .three {
   background-color: yellow;
 }
