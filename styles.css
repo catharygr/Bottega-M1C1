@@ -1,0 +1,25 @@
+.container {
+  max-width: 40rem;
+  margin-inline: auto;
+}
+
+.gridOne {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gridTwo .one {
+  background-color: red;
+  color: antiquewhite;
+}
+.gridTwo .two {
+  background-color: blue;
+  color: antiquewhite;
+}
+.gridTwo .three {
+  background-color: yellow;
+}
