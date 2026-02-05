@@ -23,3 +23,23 @@
 .gridTwo .three {
   background-color: yellow;
 }
+
+.gridThree {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  width: 500px;
+  height: 300px;
+}
+
+.gridThree .one {
+  background-color: #d6d5d5;
+}
+.gridThree .two {
+  background-color: #817f7f;
+}
+
+.gridThree .two img {
+  width: 500px;
+  height: 225px;
+  object-fit: cover;
+}
